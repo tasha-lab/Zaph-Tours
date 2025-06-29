@@ -1,5 +1,3 @@
-import { createRoot } from "react-dom/client";
-import { ThemeProvider } from "@mui/material";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Navbar from "./components/common/navbar";

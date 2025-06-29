@@ -14,10 +14,10 @@ const FeaturedDest = () => {
       >
         Featured destinations
       </Typography>
-      
+
       <Grid
         container
-        sx={{ marginBottom: "2rem",padding:'.5rem', width: "100%"}}
+        sx={{ marginBottom: "2rem", padding: ".5rem", width: "100%" }}
       >
         <Grid
           direction={"row"}

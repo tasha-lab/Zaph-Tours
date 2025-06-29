@@ -13,7 +13,7 @@ const Herosection = () => {
         }}
       >
         <img
-          src="/images/mountain.jpg"
+          src="/images/hero1.jpg"
           alt="hero-image"
           style={{
             width: "100%",

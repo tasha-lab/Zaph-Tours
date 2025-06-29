@@ -9,7 +9,7 @@ const Home = () => {
       <Herosection />
       <FeaturedDest />
       <Testimonials />
-      <Newsletter/>
+      <Newsletter />
     </div>
   );
 };

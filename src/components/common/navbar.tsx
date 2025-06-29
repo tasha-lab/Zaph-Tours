@@ -24,11 +24,38 @@ const Navbar = () => {
           />
         </Box>
         <Stack direction="row" spacing={2} sx={{ marginRight: 9 }}>
-          <Link href= '/' underline="none" variant="body1" sx={{ color: "text.primary",fontSize:'1.2rem'}}>Home</Link>
-          <Link href= '/Destinations' underline="none" variant="body1" sx={{ color: "text.primary",fontSize:'1.2rem',}}>Destination</Link>
-          <Link href= '/Trips' underline="none" variant="body1" sx={{ color: "text.primary",fontSize:'1.2rem',}}>Trips</Link>
-          <Link href= '/Contacts' underline="none" variant="body1" sx={{ color: "text.primary",fontSize:'1.2rem',}}>Contact us</Link>
-          
+          <Link
+            href="/"
+            underline="none"
+            variant="body1"
+            sx={{ color: "text.primary", fontSize: "1.2rem" }}
+          >
+            Home
+          </Link>
+          <Link
+            href="/Destinations"
+            underline="none"
+            variant="body1"
+            sx={{ color: "text.primary", fontSize: "1.2rem" }}
+          >
+            Destination
+          </Link>
+          <Link
+            href="/Trips"
+            underline="none"
+            variant="body1"
+            sx={{ color: "text.primary", fontSize: "1.2rem" }}
+          >
+            Trips
+          </Link>
+          <Link
+            href="/Contacts"
+            underline="none"
+            variant="body1"
+            sx={{ color: "text.primary", fontSize: "1.2rem" }}
+          >
+            Contact us
+          </Link>
         </Stack>
       </Toolbar>
     </AppBar>

@@ -1,5 +1,11 @@
+import Heroimg from "../components/Destinations/heroimg";
+
 const Destinations = () => {
-  return <div>our Destinations</div>;
+  return (
+    <div>
+      <Heroimg />
+    </div>
+  );
 };
 
 export default Destinations;
