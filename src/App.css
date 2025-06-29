@@ -1,0 +1,41 @@
+/* *{
+  #6d4c41
+  #fefefe
+  #1a1a1a
+  #d84315
+  #f57c00
+  #fbc02d
+  #2e7d32
+  #e8f5e9
+100
+
+200
+#a5d6a7
+300
+#81c784
+400
+#1a1a1a
+500
+
+600
+#43a047
+700
+#388e3c
+800
+#2e7d32
+
+#2e7d32 → A bit lighter, still earthy (Material UI green[800])
+
+#388e3c → More vibrant (green[700])
+
+#4caf50 → Balanced green (green[500]) — nice for primary
+
+#81c784 → Soft, pastel green (green[300])
+
+#c8e6c9
+} */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
