@@ -14,9 +14,10 @@ const FeaturedDest = () => {
       >
         Featured destinations
       </Typography>
+      
       <Grid
         container
-        sx={{ marginBottom: "2rem", width: "75rem", marginLeft: "2rem" }}
+        sx={{ marginBottom: "2rem",padding:'.5rem', width: "100%"}}
       >
         <Grid
           direction={"row"}
@@ -24,7 +25,7 @@ const FeaturedDest = () => {
             display: "flex",
             flexWrap: "wrap",
             justifyContent: "center",
-            margin: "1rem 3rem",
+            padding: "1rem 2rem",
           }}
         >
           <Card sx={{ width: "20rem", height: "25rem" }}>
@@ -55,7 +56,7 @@ const FeaturedDest = () => {
             display: "flex",
             flexWrap: "wrap",
             justifyContent: "center",
-            margin: "1rem",
+            padding: "1rem",
           }}
         >
           <Card sx={{ width: "20rem", height: "25rem" }}>
@@ -87,7 +88,7 @@ const FeaturedDest = () => {
             display: "flex",
             flexWrap: "wrap",
             justifyContent: "center",
-            margin: "1rem 3rem",
+            margin: "1rem 2rem",
           }}
         >
           <Card sx={{ width: "20rem", height: "25rem" }}>
@@ -119,7 +120,7 @@ const FeaturedDest = () => {
             display: "flex",
             flexWrap: "wrap",
             justifyContent: "center",
-            margin: "1rem 3rem",
+            margin: "1rem 2rem",
           }}
         >
           <Card sx={{ width: "20rem", height: "25rem" }}>
@@ -179,7 +180,7 @@ const FeaturedDest = () => {
             display: "flex",
             flexWrap: "wrap",
             justifyContent: "center",
-            margin: "1rem 3rem",
+            margin: "1rem 2rem",
           }}
         >
           <Card sx={{ width: "20rem", height: "25rem" }}>

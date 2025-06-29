@@ -1,5 +1,5 @@
-import { AppBar, Toolbar, Box, Stack, Button } from "@mui/material";
-import { Link } from "react-router-dom";
+import { AppBar, Toolbar, Box, Stack, Link } from "@mui/material";
+// import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -24,26 +24,11 @@ const Navbar = () => {
           />
         </Box>
         <Stack direction="row" spacing={2} sx={{ marginRight: 9 }}>
-          <Button component={Link} to="/" sx={{ color: "text.primary" }}>
-            Home
-          </Button>
-          <Button
-            component={Link}
-            to="/Destinations"
-            sx={{ color: "text.primary" }}
-          >
-            Destinations
-          </Button>
-          <Button component={Link} to="/Trips" sx={{ color: "text.primary" }}>
-            Our Trips
-          </Button>
-          <Button
-            component={Link}
-            to="/Contacts"
-            sx={{ color: "text.primary" }}
-          >
-            Contact Us
-          </Button>
+          <Link href= '/' underline="none" variant="body1" sx={{ color: "text.primary",fontSize:'1.2rem'}}>Home</Link>
+          <Link href= '/Destinations' underline="none" variant="body1" sx={{ color: "text.primary",fontSize:'1.2rem',}}>Destination</Link>
+          <Link href= '/Trips' underline="none" variant="body1" sx={{ color: "text.primary",fontSize:'1.2rem',}}>Trips</Link>
+          <Link href= '/Contacts' underline="none" variant="body1" sx={{ color: "text.primary",fontSize:'1.2rem',}}>Contact us</Link>
+          
         </Stack>
       </Toolbar>
     </AppBar>
