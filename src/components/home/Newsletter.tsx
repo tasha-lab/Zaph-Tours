@@ -25,7 +25,7 @@ const Newsletter = () => {
             </Typography>
           </Box>
           <Stack sx={{ gap: "1.5rem", width: "20rem" }}>
-            <TextField placeholder="Enter your Email" />
+            <TextField label="Enter your Email" />
             <Button variant="contained">subscribe</Button>
           </Stack>
         </Grid>
