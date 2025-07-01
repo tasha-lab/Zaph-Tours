@@ -1,3 +1,4 @@
+import About from "../components/home/About";
 import FeaturedDest from "../components/home/featuredDest";
 import Herosection from "../components/home/herosection";
 import Newsletter from "../components/home/Newsletter";
@@ -7,6 +8,7 @@ const Home = () => {
   return (
     <div>
       <Herosection />
+      <About />
       <FeaturedDest />
       <Testimonials />
       <Newsletter />
