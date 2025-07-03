@@ -1,4 +1,4 @@
-import { Box, Toolbar, Typography } from "@mui/material";
+import { Box, Slide, Toolbar, Typography } from "@mui/material";
 
 const Herosection = () => {
   return (
@@ -10,6 +10,7 @@ const Herosection = () => {
           marginBottom: "2rem",
           marginTop: "2rem",
           position: "relative",
+          
         }}
       >
         <img
@@ -22,13 +23,14 @@ const Herosection = () => {
             objectFit: "cover",
           }}
         />
+        <Slide direction="down" in timeout={1800}>
         <Typography
           variant="h2"
           sx={{
             position: "absolute",
             fontSize: "7rem",
             color: "text.primary",
-            top: "70%",
+            top: "25%",
             left: "10%",
             display: "flex",
             justifyContent: "center",
@@ -37,6 +39,7 @@ const Herosection = () => {
         >
           Best safaris and adventures
         </Typography>
+        </Slide>
       </Box>
     </Toolbar>
   );

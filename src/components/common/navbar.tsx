@@ -3,6 +3,7 @@ import { AppBar, Toolbar, Box, Stack, Link } from "@mui/material";
 
 const Navbar = () => {
   return (
+    <Box>
     <AppBar
       sx={{ height: "5rem", bgcolor: "secondary.main", position: "relative" }}
     >
@@ -23,7 +24,7 @@ const Navbar = () => {
             style={{ width: "100%", height: "100%", objectFit: "cover" }}
           />
         </Box>
-        <Stack direction="row" spacing={2} sx={{ marginRight: 9 }}>
+        <Stack direction="row" spacing={2} sx={{ marginRight: 9,flexWrap:'wrap' }}>
           <Link
             href="/"
             underline="none"
@@ -59,6 +60,7 @@ const Navbar = () => {
         </Stack>
       </Toolbar>
     </AppBar>
+    </Box>
   );
 };
 

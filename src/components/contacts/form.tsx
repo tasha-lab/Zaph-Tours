@@ -21,7 +21,7 @@ const ContactForm = () => {
               <TextField label="Enter your name" />
               <TextField label="Email subject" />
               <TextField minRows={5} multiline label="Your message" />
-              <Button variant="contained">Submit</Button>
+              <Button type="submit" variant="contained">Submit</Button>
             </Stack>
           </Grid>
         </Grid>

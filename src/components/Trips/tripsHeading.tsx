@@ -1,9 +1,10 @@
-import { Box, Typography } from "@mui/material";
+import { Box, Slide, Typography } from "@mui/material";
 
 const TripsHeading = () => {
   return (
     <>
       <Box>
+        <Slide direction="right" in timeout={1800}>
         <Typography
           variant="h3"
           sx={{
@@ -15,6 +16,7 @@ const TripsHeading = () => {
         >
           Our Packages
         </Typography>
+        </Slide>
       </Box>
     </>
   );
