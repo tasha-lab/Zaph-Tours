@@ -27,7 +27,7 @@ const Herosection = () => {
           sx={{
             position: "absolute",
             fontSize: "7rem",
-            color: "text.secondary",
+            color: "text.primary",
             top: "70%",
             left: "10%",
             display: "flex",
